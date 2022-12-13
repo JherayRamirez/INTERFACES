@@ -1,0 +1,153 @@
+* {
+    margen :  0 ;
+    relleno :  0 ;
+    borde :  0 ;
+    tamaño de fuente :  100 % ;
+    alineación vertical : línea de base;
+    tamaño de caja : cuadro de borde;
+}
+
+cuerpo {
+    alineación de texto : centro;
+    familia de fuentes : sans-serif;
+    imagen de fondo :  url (img/fondoClinica.jpg);
+    posición de fondo : centro centro;
+    repetición de fondo : sin repetición;
+    archivo adjunto de fondo : fijo;
+    tamaño de fondo : portada;
+    color de fondo :  # 6699 ;
+
+}
+
+. cabeza {
+    pantalla : flexible;
+    alinear elementos : centro;
+    justificar-contenido : espacio-entre;
+    altura :  63 píxeles ;
+    fondo :  # 0048ff ;
+    posición : fijo;
+    ancho :  100 % ;
+    índice z :  100 ;
+}
+
+. barra de navegación {
+    pantalla : flexible;
+    margen derecho :  10 px ;
+}
+
+
+. barra de navegación  a {
+    pantalla : bloque;
+    relleno :  20 px  20 px ;
+    color :  #fff ; _
+    decoración de texto : ninguno;
+    transformación de texto : mayúsculas;
+    tamaño de fuente :  10 px ;
+    peso de fuente :  550 ;
+}
+
+. barra de navegación  a : flotar {
+    fondo :  # 3f3f3f ;
+}
+
+. encabezado {
+    pantalla : flexible;
+    justificar-contenido : izquierda;
+    alinear elementos : centro;
+}
+
+. encabezado {
+    altura :  40 vh  !importante ;
+
+}
+
+. título {
+    tamaño de fuente :  30 px ;
+    peso de fuente :  600 ;
+    transformación de texto : inicial;
+    color :  rgb ( 6 ,  6 ,  6 );
+    margen :  20 px ;
+}
+
+
+
+mesa {
+    borde-colapso : colapso;
+    margen :  20 px ;  
+}
+th , tr , td {
+	borde : 1 px sólido # 000 ;
+	ancho : 150 píxeles ;
+	altura : 60 píxeles ;
+	alineación vertical : medio;
+	alineación de texto : centro;
+}
+el {
+	color : rgb ( 0 ,  0 ,  0 );
+	color de fondo :  # 729dd8 ;
+}
+
+tr : nth-child ( impar ) td {
+	color de fondo : rgb ( 205 ,  205 ,  205 );
+}
+.Solicitud Pacientes {
+    ancho :  800 píxeles ;
+    fondo :  #cacaca ; _
+    relleno :  20 px ;
+    margen :  10 px ;
+    borde-radio :  10 px ;
+    familia de fuentes : 'Times New Roman' , Times , serif;
+    color :  rgb ( 0 ,  0 ,  0 );
+    sombra de caja :  7 px  13 px  37 px  rgb ( 0 ,  0 ,  0 );
+    tamaño de fuente :  30 px ;
+    peso de fuente :  600 ;
+  }
+  
+
+  . controles {
+    ancho :  100 % ;
+    fondo :  # c4c4c4 ;
+    relleno :  10 px ;
+    borde-radio :  4 px ;
+    margen inferior :  16 px ;
+    borde :  1 px sólido # 1f53c5 ;
+    familia de fuentes :  'calibri' ;
+    tamaño de fuente :  18 px ;
+    color :  rgb ( 55 ,  55 ,  55 );
+  }
+  
+  . Solicitud Pacientes . botones {
+    ancho :  100 % ;
+    fondo :  # 1f53c5 ;
+    borde : ninguno;
+    relleno :  12 px ;
+    color : blanco;
+    margen :  16 px  0 ;
+    tamaño de fuente :  16 px ;
+  }
+  
+  H2 {
+    tamaño de fuente :  20 px ;
+    peso de fuente :  600 ;
+    color : blanco;
+  }
+  . botones {
+    ancho :  50 % ;
+    fondo :  # e43af0 ;
+    borde-radio :  40 px ;
+    relleno :  12 px ;
+    color :  rgb ( 0 ,  0 ,  0 );
+    margen :  16 px  0 ;
+    tamaño de fuente :  16 px ;
+    peso de fuente :  600 ;
+  }
+. tabla de contenido  th {
+	color : rgb ( 0 ,  0 ,  0 );
+    alineación de texto : centro;
+	color de fondo :  # 729dd8 ;
+    tamaño de fuente :  20 px ;
+    peso de fuente :  600 ;}
+
+. content-table  tr : nth-child ( impar ) td {
+	color de fondo : rgb ( 205 ,  205 ,  205 );
+}
